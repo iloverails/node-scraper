@@ -1,0 +1,19 @@
+{
+    "name": "coffeescript-express-skeleton"
+  , "description":"Example app that serves as a skeleton for coffeescript applications"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": ""
+    , "jade": "*"
+    , "coffee-script": ""
+    , "request": "*"
+    , "stylus" : "*"
+    , "cheerio": "*"
+    , "async": "*"
+    , "underscore": "*"
+    , "mongoose": "*"
+    , "socket.io": "*"
+    , "spooky": "*"
+  }
+}

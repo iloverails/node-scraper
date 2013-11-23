@@ -1,0 +1,42 @@
+!!! 5
+html(lang='en')
+  head
+    title Cars parse
+    script(src='/javascripts/dist/jquery-1.10.1.min.js')
+    script(src='/javascripts/dist/jst.js')
+    script(src='/javascripts/dist/underscore-min.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/app.js')
+  body
+    #filters
+      label(for='filter_make') Make
+      input#filter_make
+      label(for='filter_model') Model
+      input#filter_model
+      br
+      label(for='filter_fuel') Fuel
+      input#filter_fuel
+      label(for='filter_mileage') Mileage
+      input#filter_mileage
+      br
+      label(for='filter_year_from') Year of
+      input#filter_year_form
+      label(for='filter_year_to') Year to
+      input#filter_year_to
+      br
+      label(for='filter_price_from') Price of
+      input#filter_price_from
+      label(for='filter_price_to') Price to
+      input#filter_price_to
+    button#filter_search Search
+
+    table#main-content-search
+      thead
+        th Image
+        th Model
+        th Make
+        th Price
+        th Mileage
+        th Year
+        th Fuel
+      tbody
